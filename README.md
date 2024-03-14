@@ -1,2 +1,2 @@
-# Ball_Tracking
- ML Model to track balls and create usable features out of it
+# Computer Vision Projects
+ Machine Learning and Deep Learning Models to track objects and create usable features out of it
