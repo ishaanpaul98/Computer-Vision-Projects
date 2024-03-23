@@ -40,9 +40,8 @@ def technique1():
 
 def technique2():
     video = cv2.VideoCapture('Dataset/Videos/train/game_1/game_1.mp4')
-    sensitivity = 50
     lower_white = np.array([0,0,0], dtype=np.uint8)
-    upper_white = np.array([0,0,255], dtype=np.uint8)
+    upper_white = np.array([0,0,225], dtype=np.uint8)
     while True:
         # Grabbing a frame from the video
         ret, frame = video.read()
